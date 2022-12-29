@@ -61,9 +61,18 @@ h1, h2, h3 {
 .card h3{
     font-family: 'Hubballi', cursive;
 }
+.cardm h3{
+    color: #e2c8a5;
+}
 .card{
     font-family: Montserrat;
     border: 1px solid #d0cdcd;
     border-radius: 15px;
     padding: 20px;
+
+}
+
+.card b{
+    color: #e2c8a5;
+    text-transform: uppercase;
 }
