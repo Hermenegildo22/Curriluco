@@ -22,11 +22,13 @@ h1, h2, h3 {
 
 #contact{
     list-style-type: none;
+    margin: 0px;
 }
 
 #contact i {
-    width: 22px;
+    width: 29px;
     color: #e2c8a5;
+    margin: -4px;
 }
 
 #skills{
@@ -39,14 +41,16 @@ h1, h2, h3 {
 }
 
 #Links{
-    list-style-type: none;
+    margin: 15px;
 }
 
 #Links a {
-    width: 30px;
+    width: 50px;
     color: #e2c8a5;
+    margin: 15px;
+    font-size: 30px;
 }
-
+    
 #container{
     display: grid;
     grid-template-columns: 30% auto;
@@ -63,6 +67,7 @@ h1, h2, h3 {
 }
 .cardm h3{
     color: #e2c8a5;
+    font-family: 'Hubballi', cursive;
 }
 .card{
     font-family: Montserrat;
@@ -75,4 +80,9 @@ h1, h2, h3 {
 .card b{
     color: #e2c8a5;
     text-transform: uppercase;
+}
+
+#formation{
+    list-style: none;
+    color: #e2c8a5;
 }
