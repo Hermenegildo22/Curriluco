@@ -16,8 +16,9 @@
     margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2 {
     text-transform: uppercase;
+    
 }
 
 #contact{
@@ -74,7 +75,7 @@ h1, h2, h3 {
     font-family: 'Hubballi', cursive;
     font-size: 20px;
 }
-.card{
+.cardEx{
     font-family: Montserrat;
     border: 1px solid #d0cdcd;
     border-radius: 15px;
@@ -82,7 +83,7 @@ h1, h2, h3 {
 
 }
 
-.card b{
+.cacardEx h3, b{
     color: #e2c8a5;
     text-transform: uppercase;
 }
@@ -90,4 +91,24 @@ h1, h2, h3 {
 #formation{
     list-style: none;
     color: #e2c8a5;
+}
+
+@media screen and (max-width:600px) {
+    #sidebar{
+        width: 100%;
+    }
+    #content {
+        width: 100%;
+        margin-top: 0;
+        margin-left: -21px;
+    }
+    #container {
+        width: 100%;
+        margin-left: 190px;
+    }
+    #sidebar, .card {
+        width: 100%;
+        margin: 0px;
+        margin-left: -92px;
+    }
 }
